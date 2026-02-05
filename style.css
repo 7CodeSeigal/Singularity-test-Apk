@@ -1,0 +1,28 @@
+body, html { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    overflow: hidden; 
+    background: #000; 
+    color: #fff; 
+    font-family: sans-serif; 
+}
+
+.custom-scrollbar::-webkit-scrollbar { 
+    width: 3px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb { 
+    background: #ca8a04; 
+    border-radius: 10px; 
+}
+
+/* Add a fade-in for smoother view transitions */
+.view-transition {
+    animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
